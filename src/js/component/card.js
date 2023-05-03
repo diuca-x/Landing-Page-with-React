@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({title,text,button_label,button_link,img}) => {
-   
     return(
         <div className="card my-4 " >
             <img src={img} className="card-img-top" alt="..."/>
