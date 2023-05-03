@@ -1,11 +1,8 @@
 import React from "react";
 
 const Card = ({title,text,button_label,button_link,img}) => {
-    let styles = {
-        width: "18rem"        
-    }
     return(
-        <div className="card my-4 " style={styles}>
+        <div className="card my-4 " >
             <img src={img} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
