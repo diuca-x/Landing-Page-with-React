@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () =>{
     return (
-        <footer className="py-3 my-4  fixed-bottom border-top bg-dark ">
+        <footer className="py-3 mt-4  fixed-bottom border-top bg-dark ">
             <ul className="nav justify-content-center  pb-3 mb-0">
             <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary link-light ">Home</a></li>
             <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary link-light">Features</a></li>
