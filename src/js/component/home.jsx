@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import Card from "./card";
+import Jumbotron from "./jumbotron";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -9,6 +10,8 @@ const Home = () => {
 	return (
 		<>
 			<div className="text-center container">
+			<Jumbotron info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper vehicula nulla, id lacinia odio luctus quis. Etiam nisi elit, dapibus vitae nisi vel, dapibus bibendum diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eleifend condimentum mauris, vitae posuere leo." 
+			url="https://www.google.com/" />	
 				<div className="row justify-content-center">
 					<div className=" col-12 col-md-6 col-xl-3 justify-content-center ">
 						<Card title= "Card n°1" text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus in nulla."
