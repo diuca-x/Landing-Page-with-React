@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import Card from "./card";
+import Nav from "./nav";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -8,6 +9,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
+		<Nav/>
 			<div className="text-center container">
 				<div className="row justify-content-center">
 					<div className=" col-12 col-md-6 col-xl-3 justify-content-center ">
