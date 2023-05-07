@@ -2,13 +2,13 @@
 import React from "react";
 
 
-const Jumbotron = ({info,url}) =>{
+const Jumbotron = ({title,info,url,button_label}) =>{
     return (
-<div class="bg-light p-5 rounded-lg m-3 text-start">
-  <h1 class="display-4">A Warm Welcome!</h1>
-  <p>{info}</p>
-  <a class="btn btn-primary btn-lg" href={url} role="button">Call to action!</a>
-</div>
+      <div class="bg-light p-5 rounded-lg  text-start">
+        <h1 class="display-4">{title}</h1>
+        <p>{info}</p>
+        <a class="btn btn-primary btn-lg" href={url} role="button">{button_label}</a>
+      </div>
     );
 };
 
