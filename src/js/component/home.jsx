@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "./footer";
 import Card from "./card";
 import Jumbotron from "./jumbotron";
+import Nav from "./nav";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -9,6 +11,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
+		<Nav/>
 			<div className="text-center container">
 			<Jumbotron info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper vehicula nulla, id lacinia odio luctus quis. Etiam nisi elit, dapibus vitae nisi vel, dapibus bibendum diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eleifend condimentum mauris, vitae posuere leo." 
 			url="https://www.google.com/" />	
